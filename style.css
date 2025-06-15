@@ -4,3 +4,11 @@
     box-sizing: border-box;
     overflow: hidden;
 }
+
+a:focus-visible, button:focus-visible, div.button-menu:focus-visible,
+a:active, button:active, div.button-menu:active {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  background: none !important;
+}

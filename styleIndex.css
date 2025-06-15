@@ -1,4 +1,11 @@
 @media (max-width: 768px){
+
+    a:focus, button:focus, div.button-menu:focus {
+        outline: 2px solid rgba(20, 233, 86, 0.5);
+        outline-offset: 2px;
+        box-shadow: none;
+    }
+
     .header-index{
         display: flex;
         justify-content: space-between;
