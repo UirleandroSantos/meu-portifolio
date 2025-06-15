@@ -18,22 +18,22 @@
         color: #14e956;;
         opacity: 0;
         transform: translateX(-100vw);
-        animation: slidenButtonClose 0.8s ease-out forwards;
-        animation-delay: 1s;
+        animation: slidenButtonClose 0.5s ease-out forwards;
+        animation-delay: 0.8s;
     }
 
     .links-links{
         opacity: 0;
         transform: translateX(100px);
-        animation: slidenLinks 0.8s ease-out forwards;
-        animation-delay: 1s;
+        animation: slidenLinks 0.5s ease-out forwards;
+        animation-delay: 0.8s;
     }
 
     .social-media{
         opacity: 0;
         transform: translateX(-100%);
-        animation: slidenSocialMedia 0.8s ease-out forwards;
-        animation-delay: 1s;
+        animation: slidenSocialMedia 0.5s ease-out forwards;
+        animation-delay: 0.8s;
     }
 
     .links-links{
