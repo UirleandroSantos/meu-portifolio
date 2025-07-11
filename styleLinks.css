@@ -133,3 +133,157 @@
         }
     }
 }
+
+/* FIM DO ESTILO MOBILE */
+/* -------------------------- */
+/* INICIO DO ESTILO DESKTOP */
+
+@media (min-width: 769px) {
+   .body-links{
+        background-color: #1e2128;
+        padding: 1rem 2rem;
+        height: 100vh;
+        height: fit-content;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row-reverse;
+    }
+
+    .header-links{
+        display: flex;
+        justify-content: end;
+    }
+
+    .container-wrap{
+        
+        margin-right: 5rem;
+    }
+
+    .header-links i{
+        font-size: 4rem;
+        outline: none;
+        color: #14e956;;
+        opacity: 0;
+        transform: translateX(-100vw);
+        animation: slidenButtonClose 0.5s ease-out forwards;
+        animation-delay: 0.8s;
+    }
+
+    .links-links{
+        opacity: 0;
+        transform: translateX(100px);
+        animation: slidenLinks 0.5s ease-out forwards;
+        animation-delay: 0.8s;
+    }
+
+    .social-media{
+        opacity: 0;
+        transform: translateX(-100%);
+        animation: slidenSocialMedia 0.5s ease-out forwards;
+        animation-delay: 0.8s;
+    }
+
+    .links-links{
+        width: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        gap: 1rem;
+        margin: auto;
+        margin-top: 3rem;
+    }
+
+    .links-links a{
+        text-decoration: none;
+        font-size: 2.125rem;
+        color: #14e956;
+        font-family: "Lilita One", sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+   .social-media {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+
+        width: fit-content;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    .social-media a {
+        display: flex;
+        flex-direction: column;
+        width: calc(50vw / 3);
+        height: 100vh;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 7rem;
+        text-decoration: none;
+        font-family: "Lilita One", sans-serif;
+    }
+
+
+    .social-media a i{
+        font-size: 5rem;
+        margin-top: 5rem;
+        text-decoration: none;
+        color: initial;
+    }
+    
+    .social-media a span{
+        font-size: 2rem;
+        margin-right: 2rem;
+    }
+
+    .github{
+        background-color: #3333337a;
+    }
+        .github span{
+            color: #616161;
+        }
+
+    .linkedin{
+        background-color: #0076b593;
+    }
+
+    .linkedin span{
+        color: #0077b5;
+    }
+
+    .instagram{
+        background-color: #e4405e9f;
+    }
+    .instagram span{
+        color: #e4405e9f;
+    }
+
+
+    @keyframes slidenButtonClose {
+        to{
+            opacity: 1;
+            transform: translateX(-50%);
+        }
+    }
+
+     @keyframes slidenLinks {
+        to{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+
+    @keyframes slidenSocialMedia {
+        to{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
