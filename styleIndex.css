@@ -1,4 +1,7 @@
 @media (max-width: 768px){
+    body, html{
+        overflow: hidden;
+    }
       .header-index{
         display: flex;
         justify-content: space-between;
