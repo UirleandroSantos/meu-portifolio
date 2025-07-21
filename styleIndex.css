@@ -13,6 +13,7 @@
     }
 
     .logo{
+        text-decoration: none;
         background-color: rgb(6, 8, 16);
         width: 4rem;
         height: 4rem;
@@ -66,7 +67,6 @@
     }
 
     .presentation-hi{
-        background-color: rgba(20, 233, 88, .157);
         width: fit-content;
         margin: auto;
         display: flex;
@@ -167,7 +167,7 @@
         align-items: center;
         border-radius: 10px;
     }
-
+    
     .logo strong{
         color: rgb(20, 233, 86);
         font-size: 2rem;
