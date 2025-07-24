@@ -15,7 +15,8 @@
 
     .header-contato i{
         font-size: 4rem;
-        color: #14e956;;
+        color: #14e956;
+        overflow: hidden;
     }
 
     main{
